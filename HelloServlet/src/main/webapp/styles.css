@@ -1,0 +1,19 @@
+*{
+   
+    font-family: verdana;
+    font-size: 20px;
+}
+  
+  h1 {
+    color: rgb(241, 0, 209);
+    text-align: left;
+    font-size: 40px;
+  }
+  body {
+    background-image: url("good.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 1000px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover
+  }

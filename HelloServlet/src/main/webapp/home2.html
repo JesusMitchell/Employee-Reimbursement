@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Welcome Home please Select an Option</h1>
+
+<form action="./reimbursment.html">
+    <input type="submit" value="New Reimbursment Request"/>
+</form>
+
+<form action="./login.html">
+    <input type="submit" value="Sign Out" />
+</form>
+
+<br>
+
+<div class="container">
+    <button type="button" class="btn btn-primary" onclick="fetchAllYourSubmissions()">See Your Submissions</button>
+</div>
+<div class="container">
+
+    <button type="button" class="btn btn-primary" onclick="fetchAllSubmissions()">See all Pending Submissions</button>
+
+</div>
+
+<div class="container" id="books">
+
+</div>
+<script src="scripts.js"></script>
+
+</body>
+</html>
